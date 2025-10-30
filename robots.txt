@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://your-username.github.io/budget-soul-kitchen/sitemap.xml
