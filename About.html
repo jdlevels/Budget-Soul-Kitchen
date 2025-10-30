@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About – Budget Soul Kitchen</title>
+  <meta name="description" content="About Budget Soul Kitchen by Jeffrey Levels: Black Southern set‑it‑and‑forget‑it meals under $20." />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <style>
+    :root{--black:#0c0c0c;--gold:#C9A86A;--cream:#F6F3EE;--border:#e8e2d6}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;background:var(--cream);color:#222}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1000px;margin:0 auto;padding:24px}
+    header{background:var(--black);color:#fff;padding:24px}
+    .nav{display:flex;gap:14px;align-items:center;justify-content:space-between}
+    .nav a{color:#fff;opacity:.95}
+    .title{font-size:36px;margin:12px 0 0}
+    .lead{opacity:.9;max-width:780px}
+    .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px}
+    .grid{display:grid;gap:16px}
+    @media(min-width:900px){.grid.cols-2{grid-template-columns:1fr 1fr}}
+    .pill{display:inline-flex;align-items:center;gap:6px;padding:4px 8px;border-radius:999px;font-size:12px;border:1px solid var(--border);background:#fff}
+    footer{margin-top:36px;padding:36px 24px;background:#111;color:#ddd}
+    .tiny{font-size:12px;color:#7d7d7d}
+    .btn{background:var(--gold);color:#1c1c1c;border:none;border-radius:10px;padding:12px 16px;font-weight:700;cursor:pointer;display:inline-block}
+    .btn.secondary{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+  </style>
+
+  <!-- JSON-LD Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Budget Soul Kitchen",
+    "url": "https://jdlevels.github.io/Budget-Soul-Kitchen/",
+    "logo": "https://jdlevels.github.io/Budget-Soul-Kitchen/assets/images/hero-cover.jpg",
+    "sameAs": [
+      "https://www.youtube.com/", 
+      "https://www.instagram.com/"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Jeffrey Levels"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div>
+        <strong>Budget Soul Kitchen</strong>
+      </div>
+      <nav style="display:flex;gap:14px">
+        <a href="index.html">Home</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="margin-top:16px">
+    <h1 class="title">Old Roots • New Rules</h1>
+    <p class="lead">Budget Soul Kitchen is a Black Southern, set‑it‑and‑forget‑it recipe collection by <strong>Jeffrey Levels</strong> designed for tight weeks and busy families. Every dish aims to feed a household for <strong>under $20</strong> using a Crockpot, Instant Pot, stovetop, or oven — with simple prep, dependable timing, and bold flavor.</p>
+
+    <section class="grid cols-2" style="margin-top:16px">
+      <div class="card">
+        <h3>Why this exists</h3>
+        <p>During tough seasons — shutdowns, overtime weeks, or end‑of‑month stretch — people still deserve warm food and dignity. These recipes prioritize low cost, minimal prep, and reliable outcomes without sacrificing that Southern comfort.</p>
+        <div style="margin-top:8px" class="pill">Meals under $20</div>
+        <div class="pill">Prep → Cook → Serve photos</div>
+        <div class="pill">Heat & Flavor tags</div>
+      </div>
+      <div class="card">
+        <h3>What you’ll find</h3>
+        <ul>
+          <li>30 dump‑and‑go dinners + 15 desserts</li>
+          <li>Crockpot, Instant Pot, Stovetop/Oven options</li>
+          <li>Stretch‑it tips for leftovers and lunch boxes</li>
+        </ul>
+        <div style="margin-top:10px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="index.html#shop">Buy the Cookbook</a>
+          <a class="btn secondary" href="index.html#finder">Find a Recipe</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:20px" class="card">
+      <h3>Contact</h3>
+      <p>Business inquiries & collaborations: <a href="mailto:hello@budgetsoulkitchen.com">hello@budgetsoulkitchen.com</a></p>
+      <p class="tiny">Tip: create a forwarding address now; you can swap it later without changing the page.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="tiny">© <script>document.write(new Date().getFullYear())</script> Jeffrey Levels • Budget Soul Kitchen</p>
+    </div>
+  </footer>
+</body>
+</html>
