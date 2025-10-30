@@ -1,0 +1,6 @@
+Add this inside your <header> container in index.html:
+<nav style="margin-top:8px;display:flex;gap:14px">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="week1.html">Week 1</a>
+</nav>

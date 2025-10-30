@@ -1,0 +1,11 @@
+Append these <url> entries to sitemap.xml:
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/week1.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/sweet-heat-chicken-rice.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/bayou-red-bean-jambalaya.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/creole-turkey-thighs-cabbage.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/honey-butter-garlic-pork-chunks.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/southern-shrimp-creamy-grits.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/soulful-pot-roast-carrots-potatoes.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/blackened-catfish-cornbread-greens.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/peach-cobbler-dump-cake.html</loc></url>
+<url><loc>https://jdlevels.github.io/Budget-Soul-Kitchen/recipes/week1/banana-pudding-dream-cups.html</loc></url>
